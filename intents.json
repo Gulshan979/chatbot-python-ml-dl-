@@ -1,0 +1,89 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+            "responses": ["Hello", "Hi", "Hi there"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+        },
+        {
+            "tag": "about",
+            "patterns": ["Who are you?", "What are you?", "Who you are?"],
+            "responses": ["I'm Joana, your bot assistant", "I'm Joana, an Artificial Intelligent bot"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["What is your name", "What should I call you", "What's your name?"],
+            "responses": ["You can call me Joana.", "I'm Joana!", "Just call me Joana"]
+        },
+        {
+            "tag": "help",
+            "patterns": ["Could you help me?", "Give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need help", "Support me please"],
+            "responses": ["Tell me how I can assist you", "Tell me your problem so I can assist you", "Yes, sure, how can I support you?"]
+        },
+        {
+            "tag": "createaccount",
+            "patterns": ["I need to create a new account", "How to open a new account", "I want to create an account", "Can you create an account for me?", "How to open a new account"],
+            "responses": ["You can easily create a new account from our website", "Just go to our website and follow the guidelines to create a new account"]
+        },
+        {
+            "tag": "complaint",
+            "patterns": ["I have a complaint", "I want to raise a complaint", "There is a complaint about a service"],
+            "responses": ["Please provide us with your complaint so we can assist you", "Please mention your complaint, we will reach out to you and sorry for any inconvenience caused"]
+        },
+        {
+            "tag": "hours",
+            "patterns": ["What are your working hours?", "When are you open?", "What time do you close?"],
+            "responses": ["Our working hours are from 9 AM to 5 PM, Monday to Friday", "We are open from 9 AM to 5 PM on weekdays"]
+        },
+        {
+            "tag": "payments",
+            "patterns": ["What payment methods do you accept?", "Can I pay with credit card?", "Do you accept PayPal?"],
+            "responses": ["We accept various payment methods including credit cards, debit cards, and PayPal", "You can pay using credit cards, debit cards, or PayPal"]
+        },
+        {
+            "tag": "delivery",
+            "patterns": ["When will my order be delivered?", "How long does delivery take?", "What are your delivery options?"],
+            "responses": ["Delivery usually takes 3-5 business days", "We offer standard and express delivery options"]
+        },
+        {
+            "tag": "pricing",
+            "patterns": ["How much does it cost?", "What is the price of this item?", "Can you give me the pricing details?"],
+            "responses": ["Please check our website for the latest pricing information", "Prices vary depending on the product; please visit our website for details"]
+        },
+        {
+            "tag": "refund",
+            "patterns": ["How can I get a refund?", "What is your refund policy?", "Can I return my purchase?"],
+            "responses": ["You can request a refund within 30 days of purchase", "Please visit our refund policy page for more details"]
+        },
+        {
+            "tag": "location",
+            "patterns": ["Where are you located?", "What is your address?", "How can I find you?"],
+            "responses": ["We are located at 123 Main Street, Anytown, USA", "Our address is 123 Main Street, Anytown, USA"]
+        },
+        {
+            "tag": "contact",
+            "patterns": ["How can I contact you?", "What is your contact number?", "Can I get in touch with support?"],
+            "responses": ["You can contact us at support@example.com or call us at (123) 456-7890", "Reach out to us via email at support@example.com or call (123) 456-7890"]
+        },
+        {
+            "tag": "services",
+            "patterns": ["What services do you offer?", "Can you tell me about your services?", "What do you do?"],
+            "responses": ["We offer a variety of services including web development, mobile app development, and digital marketing", "Our services include web development, mobile app development, and digital marketing"]
+        },
+        {
+            "tag": "website",
+            "patterns": ["What is your website?", "Can you give me your website link?", "How can I visit your website?", "Provide me the website address"],
+            "responses": ["You can visit our website at www.example.com", "Our website address is www.example.com", "Check out our website at www.example.com for more information"]
+        }
+    ]
+}
